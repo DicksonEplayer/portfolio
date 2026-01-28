@@ -10,7 +10,7 @@ const AboutPage: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
           <div className="md:col-span-1 flex justify-center">
             <img 
-              src="https://photos.google.com/album/AF1QipOgb2SqyhgG7ta3hq65eg0FvE9N9vfb3iMYYoOO" 
+              src="https://photos.app.goo.gl/DQ1cUKAxyKt6bSeGA" 
               alt="Ainamani Dickson"
               className="rounded-full h-48 w-48 md:h-64 md:w-64 object-cover border-4 border-primary shadow-md"
             />
