@@ -1,5 +1,7 @@
 
 import React from 'react';
+import DicksonImg from "./Dickson.jpg";
+
 
 const AboutPage: React.FC = () => {
   const skills = ['Python (Pandas, NumPy, Scikit-learn)', 'SQL', 'R', 'Power BI', 'Tableau', 'Excel', 'Statistical Analysis', 'Machine Learning'];
@@ -10,7 +12,7 @@ const AboutPage: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 items-center">
           <div className="md:col-span-1 flex justify-center">
             <img 
-              src="components/pages/Dickson.jpg" 
+              src={DicksonImg} 
               alt="Ainamani Dickson"
               className="rounded-full h-48 w-48 md:h-64 md:w-64 object-cover border-4 border-primary shadow-md"
             />
